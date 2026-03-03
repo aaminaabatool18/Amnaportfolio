@@ -132,13 +132,13 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: #e2e8f0;
+    background: var(--bg-tertiary);
 }
 
 .search-bar {
     flex-grow: 1;
     height: 12px;
-    background: #f1f5f9;
+    background: var(--bg-tertiary);
     border-radius: 6px;
 }
 
@@ -150,7 +150,7 @@
 
 .rect {
     height: 16px;
-    background: #f1f5f9;
+    background: var(--bg-tertiary);
     border-radius: 4px;
 }
 
@@ -171,19 +171,19 @@
 
 .grid-abstract .item {
     height: 80px;
-    background: #f8fafc;
+    background: var(--bg-secondary);
     border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #94a3b8;
-    border: 1px dashed #e2e8f0;
+    color: var(--text-tertiary);
+    border: 1px dashed var(--glass-border);
 }
 
 .card-floating {
     position: absolute;
     padding: 1rem 1.5rem;
-    background: white;
+    background: var(--bg-secondary);
     border-radius: 16px;
     box-shadow: var(--shadow-xl);
     display: flex;
@@ -191,7 +191,7 @@
     gap: 0.75rem;
     font-weight: 700;
     font-size: 0.875rem;
-    border: 1px solid #e2e8f0;
+    border: 1px solid var(--glass-border);
 }
 
 .float-1 {

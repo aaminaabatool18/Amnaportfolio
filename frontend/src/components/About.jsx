@@ -26,7 +26,7 @@ const About = () => {
                     >
                         <div className="image-frame">
                             <img
-                                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                                src="profile.jpg"
                                 alt="Aamina Batool"
                                 className="about-img"
                             />
@@ -51,25 +51,16 @@ const About = () => {
                         transition={{ delay: 0.2 }}
                     >
                         <h2 className="section-title">
-                            Engineering <span className="text-neon-blue">Impact</span> through Experience.
+                            Clean Code <span className="text-neon-blue">Creating</span> Real Impact.
                         </h2>
 
                         <div className="about-text-box">
-                            <p className="lead-text">
-                                I am a Full Stack Developer & Digital Growth Specialist dedicated to
-                                building high-performance digital solutions at **Zeen Group**.
+                            <p>
+                                I’m Aamina Batool — a frontend and backend developer focused on creating fast, clean, and user-friendly web solutions. I don’t just write code — I build experiences that solve real problems and help businesses grow.
                             </p>
 
                             <p>
-                                My approach combines deep technical expertise with a sharp UI/UX focus.
-                                I believe that every line of code should contribute to a seamless user journey
-                                and tangible business growth.
-                            </p>
-
-                            <p>
-                                From architecting scalable backends to crafting pixel-perfect frontend experiences,
-                                I bridge the gap between design vision and technical reality.
-                                Precision is my standard, and performance is my metric.
+                                From designing smooth interfaces to developing scalable backend systems, I turn ideas into practical, high-performing products.
                             </p>
                         </div>
 

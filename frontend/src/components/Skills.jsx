@@ -21,21 +21,21 @@ const Skills = () => {
         {
             title: "Backend Excellence",
             icon: <Cpu size={24} />,
-            skills: ["Node", "PostgreSQL", "Prisma"],
+            skills: ["Node", "Express", "MongoDB"],
             size: "small",
             color: "cyan"
         },
         {
             title: "UI/UX Strategy",
             icon: <Layers size={24} />,
-            skills: ["Figma", "Interaction Design", "Prototyping"],
+            skills: ["Figma", "Interaction Design", "Prototyping", "UI/UX", "Graphic designing", "Canva"],
             size: "medium",
             color: "blue"
         },
         {
             title: "Growth & Optimization",
             icon: <Zap size={24} />,
-            skills: ["SEO", "Performance", "Analytics"],
+            skills: ["SEO", "Performance", "Analytics", "Digital Marketing"],
             size: "small",
             color: "cyan"
         },

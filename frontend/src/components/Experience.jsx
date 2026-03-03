@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Briefcase, Calendar, MapPin, ChevronRight } from 'lucide-react';
+import { Briefcase, Calendar, MapPin, ChevronRight, View } from 'lucide-react';
 import './Experience.css';
 
 const Experience = () => {
@@ -14,10 +14,12 @@ const Experience = () => {
         {
             company: "Zeen Group",
             role: "Key Developer & Digital Specialist",
-            period: "2022 — Present",
+            period: "2023 — Present",
             location: "Hybrid Studio",
-            description: "Leading technical strategy and full-stack development. Orchestrating digital growth through precision engineering.",
-            skills: ["Strategy", "Architecture", "Optimization"]
+            description: "Leading technical strategy and graphical user interface development. Improving the user experience and satisfaction. Orchestrating digital growth through precision engineering.",
+            skills: ["UI/UX", "Development", "SEO", "Graphic designing"],
+            link: "https://zeen.au/"
+
         },
         {
             company: "Creative Studio",
@@ -75,12 +77,24 @@ const Experience = () => {
                                     <div className="exp-skills-brief">
                                         {exp.skills.map(s => <span key={s} className="exp-skill-dot">{s}</span>)}
                                     </div>
-                                    <motion.div
-                                        className="view-case-link"
-                                        whileHover={{ x: 5 }}
-                                    >
-                                        Details <ChevronRight size={16} />
-                                    </motion.div>
+                                    {exp.link ? (
+                                        <motion.a
+                                            href={exp.link}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="view-case-link"
+                                            whileHover={{ x: 5 }}
+                                        >
+                                            Details <ChevronRight size={16} />
+                                        </motion.a>
+                                    ) : (
+                                        <motion.div
+                                            className="view-case-link"
+                                            whileHover={{ x: 5 }}
+                                        >
+                                            Details <ChevronRight size={16} />
+                                        </motion.div>
+                                    )}
                                 </div>
                             </motion.div>
                         ))}

@@ -11,8 +11,8 @@ const Certifications = () => {
     });
 
     const certs = [
-        { title: "Advanced React Patterns", issuer: "Frontend Masters", year: "2023" },
-        { title: "Google Analytics Professional", issuer: "Google", year: "2022" },
+        { title: "Huawei AI Certification", issuer: "Huawei", year: "2025" },
+        { title: "CCNA: Introduction to Networks", issuer: "Cisco", year: "2025", href: "aamina cisco certification.jpg" },
         { title: "AWS Developer Associate", issuer: "Amazon", year: "2022" },
         { title: "UI/UX Design Spec", issuer: "CalArts", year: "2021" }
     ];

@@ -22,7 +22,7 @@
 
 .cert-card-glass {
     padding: 2rem;
-    border: 1px solid #e2e8f0;
+    border: 1px solid var(--glass-border);
     display: flex;
     flex-direction: column;
     transition: all var(--transition-normal);

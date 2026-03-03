@@ -36,8 +36,8 @@
 .method-icon {
     width: 54px;
     height: 54px;
-    background: white;
-    border: 1px solid #e2e8f0;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--glass-border);
     border-radius: 14px;
     display: flex;
     align-items: center;
@@ -77,8 +77,8 @@
     align-items: center;
     gap: 0.75rem;
     padding: 0.75rem 1.25rem;
-    background: white;
-    border: 1px solid #e2e8f0;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--glass-border);
     border-radius: 99px;
     font-size: 0.875rem;
     font-weight: 600;
@@ -142,7 +142,7 @@
     width: 100%;
     padding: 1rem 1.25rem;
     background: var(--bg-secondary);
-    border: 1px solid #e2e8f0;
+    border: 1px solid var(--glass-border);
     border-radius: 12px;
     font-family: inherit;
     font-size: 1rem;
@@ -153,7 +153,7 @@
 .input-group-modern input:focus,
 .input-group-modern textarea:focus {
     outline: none;
-    background: white;
+    background: var(--bg-tertiary);
     border-color: var(--accent-neon-blue);
     box-shadow: 0 0 0 4px rgba(0, 112, 255, 0.05);
 }

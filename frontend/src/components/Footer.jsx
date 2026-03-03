@@ -44,9 +44,9 @@ const Footer = () => {
                 <div className="footer-bottom glass-card">
                     <p className="copyright">&copy; {currentYear} Aamina Batool. Crafted with <span className="text-neon-blue">Precision</span>.</p>
                     <div className="footer-socials">
-                        <a href="#"><Linkedin size={18} /></a>
-                        <a href="#"><Github size={18} /></a>
-                        <a href="#"><Mail size={18} /></a>
+                        <a href="https://www.linkedin.com/in/aamina-aarif/"><Linkedin size={18} /></a>
+                        <a href="https://github.com/aaminaabatool18"><Github size={18} /></a>
+                        <a href="mailto:aaminabatool18@gmail.com"><Mail size={18} /></a>
                     </div>
                     <motion.button
                         className="scroll-top-btn"

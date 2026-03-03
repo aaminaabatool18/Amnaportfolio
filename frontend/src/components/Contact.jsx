@@ -31,21 +31,21 @@ const Contact = () => {
                                 <div className="method-icon"><Mail size={20} /></div>
                                 <div className="method-text">
                                     <span className="method-label">Email</span>
-                                    <a href="mailto:hello@aaminabatool.com">hello@aaminabatool.com</a>
+                                    <a href="mailto:aaminabatool18@gmail.com">aaminabatool18@gmail.com</a>
                                 </div>
                             </div>
                             <div className="method-item">
                                 <div className="method-icon"><MapPin size={20} /></div>
                                 <div className="method-text">
                                     <span className="method-label">Global Presence</span>
-                                    <span>Remote / Hybrid</span>
+                                    <span>Remote</span>
                                 </div>
                             </div>
                         </div>
 
                         <div className="contact-social-pills">
-                            <a href="#" className="social-pill-glass"><Linkedin size={18} /> LinkedIn</a>
-                            <a href="#" className="social-pill-glass"><Github size={18} /> GitHub</a>
+                            <a href="https://www.linkedin.com/in/aamina-aarif/" className="social-pill-glass"><Linkedin size={18} /> LinkedIn</a>
+                            <a href="https://github.com/aaminaabatool18" className="social-pill-glass"><Github size={18} /> GitHub</a>
                         </div>
                     </motion.div>
 
@@ -59,11 +59,11 @@ const Contact = () => {
                             <div className="form-row">
                                 <div className="input-group-modern">
                                     <label>Name</label>
-                                    <input type="text" placeholder="John Doe" />
+                                    <input type="text" placeholder="xyz" />
                                 </div>
                                 <div className="input-group-modern">
                                     <label>Email</label>
-                                    <input type="email" placeholder="john@example.com" />
+                                    <input type="email" placeholder="xyz@example.com" />
                                 </div>
                             </div>
                             <div className="input-group-modern">

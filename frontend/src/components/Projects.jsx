@@ -13,19 +13,19 @@ const Projects = () => {
     const projects = [
         {
             id: 1,
-            title: "The Enterprise Core",
-            category: "Full Stack / ERP",
+            title: "Gradience",
+            category: "Frontend / UI/UX",
             image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-            description: "A centralized business architecture for Zeen Group. Focused on performance and internal synergy.",
-            tags: ["React", "PostgreSQL", "Node"]
+            description: "E learning platform for CS students, with quizzes and assignments, certifications and more",
+            tags: ["React", "Express", "MongoDB"]
         },
         {
             id: 2,
-            title: "Modern Edge Commerce",
-            category: "E-Commerce / UI/UX",
+            title: "Fleet Mate",
+            category: "UI/UX",
             image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-            description: "Next-generation shopping experience with seamless frictionless checkout journeys.",
-            tags: ["Next.js", "Stripe", "Framer"]
+            description: "A Fleet Management System for tracking and managing vehicles and drivers based in Australia",
+            tags: ["React", "Canva", "Figma"]
         }
     ];
 
@@ -46,7 +46,7 @@ const Projects = () => {
                         animate={inView ? { opacity: 1 } : {}}
                         transition={{ delay: 0.2 }}
                     >
-                        Case studies of precision-engineered solutions and creative strategy.
+                        Projects that made an impact and solved real-world problems.
                     </motion.p>
                 </div>
 

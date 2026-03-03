@@ -23,8 +23,8 @@
 
 .bento-card-skill {
     position: relative;
-    background: white;
-    border: 1px solid #e2e8f0;
+    background: var(--bg-secondary);
+    border: 1px solid var(--glass-border);
     border-radius: var(--border-radius-2xl);
     padding: 2.5rem;
     overflow: hidden;
@@ -102,12 +102,12 @@
     font-size: 0.875rem;
     font-weight: 600;
     color: var(--text-secondary);
-    border: 1px solid #e2e8f0;
+    border: 1px solid var(--glass-border);
     transition: all var(--transition-fast);
 }
 
 .bento-card-skill:hover .skill-pill-modern {
-    background: white;
+    background: var(--bg-tertiary);
     border-color: rgba(0, 112, 255, 0.1);
     color: var(--text-primary);
 }
