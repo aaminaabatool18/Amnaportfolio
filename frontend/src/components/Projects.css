@@ -8,6 +8,12 @@
     gap: 8rem;
 }
 
+@media (max-width: 768px) {
+    .projects-list-ultra {
+        gap: 4rem;
+    }
+}
+
 .project-row {
     display: grid;
     grid-template-columns: 1fr;
@@ -106,6 +112,12 @@
     font-size: 3rem;
     margin-bottom: 1.5rem;
     color: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+    .project-title-large {
+        font-size: 2rem;
+    }
 }
 
 .project-body-text {

@@ -70,6 +70,7 @@
 .contact-social-pills {
     display: flex;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .social-pill-glass {
@@ -97,6 +98,12 @@
 .contact-form-glass {
     padding: 4rem;
     border: 1px solid rgba(0, 112, 255, 0.1);
+}
+
+@media (max-width: 768px) {
+    .contact-form-glass {
+        padding: 2rem;
+    }
 }
 
 @media (max-width: 640px) {

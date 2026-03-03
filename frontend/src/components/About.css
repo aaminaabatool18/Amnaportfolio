@@ -58,12 +58,24 @@
 
 .exp-card {
     position: absolute;
-    bottom: -20px;
-    right: -20px;
-    padding: 1.5rem 2rem;
+    bottom: -15px;
+    right: -15px;
+    padding: 1rem 1.5rem;
     z-index: 10;
     text-align: center;
     border: 1px solid rgba(0, 112, 255, 0.2);
+}
+
+@media (max-width: 768px) {
+    .exp-card {
+        bottom: -10px;
+        right: 10px;
+        padding: 0.75rem 1rem;
+    }
+
+    .exp-card h3 {
+        font-size: 1.5rem;
+    }
 }
 
 .exp-card h3 {
@@ -105,10 +117,21 @@
 }
 
 .about-signature {
-    margin-top: 3rem;
+    margin-top: 2.5rem;
     display: flex;
     align-items: center;
     gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        text-align: center;
+        align-items: center;
+    }
+
+    .about-signature {
+        justify-content: center;
+    }
 }
 
 .sign-line {

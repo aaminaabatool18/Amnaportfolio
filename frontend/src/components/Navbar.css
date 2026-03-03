@@ -98,10 +98,10 @@
 
 .mobile-menu {
     position: absolute;
-    top: calc(100% + 1rem);
+    top: calc(100% + 0.5rem);
     left: 1.5rem;
     right: 1.5rem;
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: var(--border-radius-xl);
 }
 

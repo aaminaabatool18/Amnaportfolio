@@ -30,6 +30,12 @@
     margin-bottom: 2rem;
 }
 
+@media (max-width: 768px) {
+    .logo-text-large {
+        font-size: 1.75rem;
+    }
+}
+
 .logo-text-large .dot {
     color: var(--accent-neon-blue);
 }

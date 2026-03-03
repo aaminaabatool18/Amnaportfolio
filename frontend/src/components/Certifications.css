@@ -28,6 +28,12 @@
     transition: all var(--transition-normal);
 }
 
+@media (max-width: 768px) {
+    .cert-card-glass {
+        padding: 1.5rem;
+    }
+}
+
 .cert-card-glass:hover {
     border-color: var(--accent-neon-blue);
     box-shadow: 0 20px 40px -10px rgba(0, 112, 255, 0.1);

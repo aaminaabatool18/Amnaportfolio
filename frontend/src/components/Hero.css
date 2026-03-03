@@ -74,7 +74,13 @@
 
 @media (max-width: 768px) {
     .hero-headline {
-        font-size: 3.5rem;
+        font-size: 2.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-headline {
+        font-size: 2.25rem;
     }
 }
 
@@ -195,17 +201,35 @@
 }
 
 .float-1 {
-    top: 10%;
-    right: -10%;
+    top: 5%;
+    right: 0%;
     color: var(--accent-neon-blue);
     animation: floatMove 4s infinite ease-in-out;
 }
 
 .float-2 {
-    bottom: 20%;
-    left: -15%;
+    bottom: 10%;
+    left: 0%;
     color: var(--accent-neon-cyan);
     animation: floatMove 5s infinite ease-in-out reverse;
+}
+
+@media (max-width: 768px) {
+    .card-floating {
+        padding: 0.75rem 1rem;
+        font-size: 0.75rem;
+        z-index: 10;
+    }
+
+    .float-1 {
+        top: 0%;
+        right: -5%;
+    }
+
+    .float-2 {
+        bottom: 5%;
+        left: -5%;
+    }
 }
 
 .pulse {

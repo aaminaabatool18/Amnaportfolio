@@ -26,12 +26,18 @@
     background: var(--bg-secondary);
     border: 1px solid var(--glass-border);
     border-radius: var(--border-radius-2xl);
-    padding: 2.5rem;
+    padding: 2rem;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     transition: all var(--transition-normal);
+}
+
+@media (max-width: 768px) {
+    .bento-card-skill {
+        padding: 1.5rem;
+    }
 }
 
 /* Bento Sizing */
