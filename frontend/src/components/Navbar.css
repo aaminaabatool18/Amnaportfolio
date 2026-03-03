@@ -1,0 +1,123 @@
+.nav-wrapper {
+    position: fixed;
+    top: 1.5rem;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+    transition: all var(--transition-normal);
+}
+
+.nav-wrapper.scrolled {
+    top: 1rem;
+}
+
+.navbar-pill {
+    width: 100%;
+    max-width: 900px;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    /* Pill shape */
+    border: 1px solid rgba(0, 112, 255, 0.15);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 800;
+    font-size: 1.25rem;
+    letter-spacing: 0.05em;
+    color: var(--text-primary);
+}
+
+.logo-dot {
+    width: 10px;
+    height: 10px;
+    background-color: var(--accent-neon-blue);
+    border-radius: 50%;
+    box-shadow: 0 0 10px var(--accent-neon-blue);
+}
+
+.nav-links {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.nav-link {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    position: relative;
+}
+
+.nav-link:hover {
+    color: var(--accent-neon-blue);
+}
+
+.nav-cta .btn-link {
+    font-weight: 600;
+    color: var(--accent-neon-blue);
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.nav-cta .arrow {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+}
+
+.nav-cta .btn-link:hover .arrow {
+    transform: translate(2px, -2px);
+}
+
+/* Mobile Controls */
+.mobile-toggle {
+    display: none;
+    color: var(--text-primary);
+}
+
+@media (max-width: 1024px) {
+    .desktop-only {
+        display: none;
+    }
+
+    .mobile-toggle {
+        display: block;
+    }
+}
+
+.mobile-menu {
+    position: absolute;
+    top: calc(100% + 1rem);
+    left: 1.5rem;
+    right: 1.5rem;
+    padding: 2rem;
+    border-radius: var(--border-radius-xl);
+}
+
+.mobile-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.mobile-links a {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.mobile-cta {
+    color: var(--accent-neon-blue) !important;
+}

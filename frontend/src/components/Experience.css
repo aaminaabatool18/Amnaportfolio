@@ -1,0 +1,131 @@
+.experience-neon {
+    background-color: var(--bg-secondary);
+}
+
+.experience-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+}
+
+@media (min-width: 1024px) {
+    .experience-layout {
+        grid-template-columns: 0.8fr 1.2fr;
+        align-items: flex-start;
+    }
+}
+
+.exp-timeline-modern {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.exp-item-glass {
+    padding: 2.5rem;
+    border: 1px solid #e2e8f0;
+    transition: all var(--transition-normal);
+}
+
+.exp-item-glass:hover {
+    border-color: var(--accent-neon-blue);
+    box-shadow: 0 40px 80px -20px rgba(0, 112, 255, 0.08);
+    transform: translateX(10px);
+}
+
+.exp-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.company-info {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.company-logo-placeholder {
+    width: 48px;
+    height: 48px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow-sm);
+}
+
+.company-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.role-text {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--accent-neon-blue);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.period-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    background: #f1f5f9;
+    border-radius: 99px;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+.exp-desc {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+.exp-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exp-skills-brief {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.exp-skill-dot {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--text-tertiary);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.exp-skill-dot::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: var(--accent-neon-blue);
+    border-radius: 50%;
+}
+
+.view-case-link {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    cursor: pointer;
+}
